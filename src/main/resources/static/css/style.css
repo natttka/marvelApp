@@ -1,0 +1,106 @@
+body{
+background-size:cover;
+background-repeat: no-repeat;
+}
+.else {
+background-color: black;}
+form {
+  display: flex;
+  justify-content:center;
+  font-size:24px;
+  font-color:orange;
+  }
+  button {
+    color: orange;
+  font-size:28px;
+  }
+  input  {
+  font-size:18px;
+  }
+  nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(247, 114, 56, 0.6);
+  height: 8vh;
+  width: 100vw;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #ea4700;
+  font-size: 20px;
+}
+
+nav ul a:hover {
+  color: white;
+}
+
+nav ul li:hover {
+  background-color: rgba(107, 224, 129, 0.6);
+  padding: 1%;
+}
+.spiderHeros   {
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;}
+.spiderHeros:hover {
+   background-color: #72ead8;
+      }
+.spiderHeros span {
+  margin-top: 5vh;
+  color: ivory;
+  font-size:20px;
+         }
+ .spiderHeros p  {
+  color: navy;
+  font-size: 16px;
+  width:80%;
+}
+.heroDetails{
+        width:100vw;
+        height:100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+}
+.heroDetails span {
+   color: orange;
+   font-size:30px;
+}
+.heroDetails p {
+   color: white;
+   font-size: 20px;
+   width:80%;
+}
+#heroFind {
+  opacity:0.8;
+  color: orange;
+  background-color: white;
+}
+.finder {
+color:orange;
+}
+#show {
+ color: black;
+ font-size: 2em;
+ opacity: 0.5;
+ background-color: orange;
+ justify-content:center;
+ padding: 1%;
+}
+#show:hover {
+  color:white;
+}
+.wrap_spiders {
+  display: flex;
+  flex-direction:column;
+}
+.heroImage {
+width:30vw;
+height:35vh;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"><head>
+    <meta charset="UTF-8">
+    <title>Hero Finder</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}">
+</head>
+<body class="else">
+<nav>
+    <ul>
+        <li><a id="link5" href="http://localhost:8080/">Home</a></li>
+        <li><a id="link0" href="http://localhost:8080/showSpiders?">Spider Heros</a></li>
+        <li><a id="link1" href="http://localhost:8080/showAll?">Show All Heros</a></li>
+        <li><a id="link2" href="http://localhost:8080/spiderComics?">Spiders Comics</a></li>
+    </ul>
+</nav>
+<form th:action="@{/findOneDetails}" th:object="${hero}" method="GET">
+        <input id="heroFind" type="text" name="name" required autofocus/>
+    <tr>
+        <td>
+            <button type="submit">Find</button>
+        </td>
+    </tr>
+</form>
+
+<p class="finder">
+    Przykładowo: Storm, Wolverine, Falcon, Spider-Man, Wallop
+</p>
+
+
+</body>
+</html>
